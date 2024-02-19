@@ -1,11 +1,9 @@
-import { Chessboard } from "react-chessboard";
+import Game from './pages/game';
 
 function App() {
   return (
     <div className="App w-screen h-screen bg-slate-400 flex items-center justify-center">
-      <div className="w-[40%]">
-        <Chessboard id="Main" />
-      </div>
+      <Game />
     </div>
   );
 }
